@@ -10,7 +10,7 @@ if __name__ == '__main__':
     ).deploy(
         name="my-first-deployment",
         parameters={
-            "github_repos:": [
+            "github_repos": [
                 "PrefectHQ/prefect",
                 "pydantic/pydantic",
                 "huggingface/transformers",

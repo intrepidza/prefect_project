@@ -9,7 +9,7 @@ def show_stars(github_repos: list[str]):
     for repo in github_repos:
         repo_stats = fetch_stats(repo)
         stars = get_stats(repo_stats)
-        print(f"{repo}: {stars} stars")
+        print(f"{repo}: {stars} stars - My version")
 
 
 @task

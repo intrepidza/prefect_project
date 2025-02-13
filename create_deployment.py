@@ -1,6 +1,7 @@
 from prefect import flow
 
-SOURCE_REPO = "https://github.com/prefecthq/demos.git"
+# SOURCE_REPO = "https://github.com/prefecthq/demos.git"
+SOURCE_REPO = "https://github.com/intrepidza/prefect_project.git"
 
 if __name__ == '__main__':
     flow.from_source(
